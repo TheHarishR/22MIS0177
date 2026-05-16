@@ -5,7 +5,7 @@ const COLORS = {
   Result:    { bg:"#fff3e0", border:"#f57c00", text:"#e65100" },
   Event:     { bg:"#f3e5f5", border:"#7b1fa2", text:"#4a148c" },
 };
-const ICONS = { Placement:"💼", Result:"📊", Event:"📅" };
+const ICONS = { Placement:"", Result:"", Event:"" };
 
 function fmt(ts) {
   try { return new Date(ts).toLocaleString(); } catch { return ts; }

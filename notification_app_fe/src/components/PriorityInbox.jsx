@@ -25,7 +25,7 @@ export default function PriorityInbox() {
       <div style={s.header}>
         <div>
           <h1 style={s.title}>
-            🔔 Priority Inbox
+             Priority Inbox
             {unreadCount > 0 &&
               <span style={s.badge}>{unreadCount}</span>
             }
@@ -54,7 +54,7 @@ export default function PriorityInbox() {
       </div>
 
       {/* States */}
-      {error   && <div style={s.err}>⚠️ {error}</div>}
+      {error   && <div style={s.err}> {error}</div>}
       {loading && !error && <div style={s.center}>Loading notifications…</div>}
       {!loading && !error && priorityList.length === 0 &&
         <div style={s.center}>No notifications found.</div>}
