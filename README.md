@@ -1,4 +1,7 @@
 # OUTPUT
+
+# Video Containing Both Desktop and Mobile View:
+
 <img width="1193" height="967" alt="image" src="https://github.com/user-attachments/assets/4e5dced3-d3d5-48cb-87bc-62b6c2355772" />
 <img width="1186" height="897" alt="image" src="https://github.com/user-attachments/assets/c56ff6da-6360-478a-acf9-094c88113a72" />
 
